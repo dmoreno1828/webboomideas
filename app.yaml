@@ -4,3 +4,11 @@ api_version: 1
 handlers:
 - url: /.*
   script: index.php
+
+  handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /assets
+  static_dir: assets

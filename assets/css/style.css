@@ -804,10 +804,11 @@ video {
 
 
 /*video section css*/
-
+video{width: 100%}
 .video{
     background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;
+    background-size:cover;}
+
 }
 .video .main_video{
     padding: 220px 0px 160px 0px;

@@ -664,13 +664,19 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg);
+    background: transparent;
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
+}
+video {
+    width: 100%;
+}
+.border-green {
+    border-bottom: 5px solid #49ea09;
 }
 
 .home .main_home{

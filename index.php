@@ -81,7 +81,7 @@
                                             <ul class="nav navbar-nav navbar-right">
                                                 <li><a href="#home">HOME</a></li>
                                                 <li><a href="#service">Servicios</a></li>
-                                                <li><a href="#features">Nosotros</a></li>
+                                                <!--<li><a href="#features">Nosotros</a></li>-->
                                                 <li><a href="#portafolio">Portafolio</a></li>
                                                 <li><a href="#clogo">Clientes</a></li>
                                                 <li><a href="#contact">Contactos</a></li>
@@ -109,53 +109,31 @@
             </header> <!--End of header -->
 
             <section id="home" class="home">
-                <div class="overlay">
-                    <div class="container">
+                <video src="assets/images/videointro.mp4" autoplay class="border-green">
+                    
                         <div class="row">
                             <div class="col-sm-12 ">
-                                <div class="main_home_slider text-center">
-                                    <div class="single_home_slider" >
-                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                            <h1>&nbsp;</h1>
-                                            <p>Generador de ideas para el crecimiento empresarial</p>
+                                <div class=" text-center">
+                                    
+                                    <div>
+                                        
+                                        <div class=" wow fadeInUp" data-wow-duration="700ms">
                                             <div class="home_btn">
-                                                <!--href="#" class="btn btn-primary"--><a>Leer más</a>
+                                                <!--href="#" class="btn btn-primary"--><a></a>
                                             </div>
                                         </div>
-                                        <div class="icon icon-basic-magic-mouse" style="font-size:30px;padding-top:13px;color:#fff"></div>  
+                                         
                                     </div>
-                                    <div class="single_home_slider">
-                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                            <h1>&nbsp;</h1>
-                                            <p>Empresa formada por profesionales del más alto nivel dedicados al crecimiento y expansión de los negocios de nuestros clientes. </p>
-                                            <div class="home_btn">
-                                                <!--href="#" class="btn btn-primary"--><a>Leer más</a>
-                                            </div>
-                                        </div>
-                                          <div class="icon icon-basic-magic-mouse" style="font-size:30px;padding-top:13px;color:#fff"></div>
-                                    </div>
-                                    <div class="single_home_slider">
-                                        <div class="main_home wow fadeInUp" data-wow-duration="700ms">
-                                            <h1>&nbsp;</h1>
-                                            <p>Desarrollo de software a medida, diseño y construcción de páginas web, marketing digital y social media.</p>
-                                            <div class="home_btn">
-                                                <!--href="#" class="btn btn-primary"--><a>Leer más</a>
-                                            </div>
-                                        </div>
-                                          <div class="icon icon-basic-magic-mouse" style="font-size:30px;padding-top:13px;color:#fff"></div>
-                                    </div>
-                                
+                                    
                                 </div>
-
                             </div>
-                        
                         </div>
-
-                    </div>
-
-                </div>
+                </video>
             </section>
+            
+
             <section id="service" class="service">
+                <div class="col-md-12"><br></div>
                 <div class="container">
                     <div class="row">
                         <div class="head_title">
@@ -291,6 +269,7 @@
                     </div>
                 </div>
             </section>
+            
             <section id="about" class="about">
                 <div class="container">
                     <div class="row">
@@ -542,7 +521,7 @@
                 </div>
             </section>  
         
-            <section id="features" class="features">
+            <!--<section id="features" class="features">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
@@ -581,7 +560,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <section id="video" class="video text-center wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
                 <div class="video_overlay">
@@ -590,7 +569,7 @@
                             <div class="main_video">
                                 <div class="col-sm-12">
                                     <div class="icon">
-                                        <a href="assets/images/ProyectoBI.mp4" class="youtube-media">
+                                        <a href="assets/images/proyectoBI.mp4" class="youtube-media">
                                             <img src="assets/images/play.png" alt="play-icon" /></a>
                                         <h3>MIRA NUESTRA INTRODUCCIÓN</h3>
                                     </div>

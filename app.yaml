@@ -5,10 +5,20 @@ handlers:
 - url: /.*
   script: index.php
 
-  handlers:
-- url: /favicon\.ico
-  static_files: favicon.ico
-  upload: favicon\.ico
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: /assets/css/
+  upload: /assets/css/(.*\.css)
 
-- url: /assets
-  static_dir: assets
+
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: /assets/js/
+  upload: /assets/js/(.*\.js)
+
+
+# image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: /assets/images/
+  upload: /assets/images/(.*\.(bmp|gif|ico|jpeg|jpg|png))

@@ -109,9 +109,11 @@
             </header> <!--End of header -->
 
             <section id="home" class="home">
-                <video src="assets/images/videointro.mp4" autoplay class="border-green">
+                <video id="videoi" class="border-green">
                     
-                        <div class="row">
+                        <source src="assets/images/videointro2.mp4" type="video/mp4">
+                            
+                    <div class="row">
                             <div class="col-sm-12 ">
                                 <div class=" text-center">
                                     
@@ -128,6 +130,7 @@
                                 </div>
                             </div>
                         </div>
+                
                 </video>
             </section>
             
@@ -147,13 +150,13 @@
                                     <div class="service_tabe">
                                         <!-- Nav tabs -->
                                         <ul class="service_tabe_menu nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="active"><a href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation" class="active"><a id="1" href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-display" style="font-size:60px;padding-top: 20px"></div>Diseño de Software, Web y Apps Móviles</a></li>
-                                            <li role="presentation"><a href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="2" href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-cloud" style="font-size:60px;padding-top: 20px"></div>Alojamiento en la Nube</a></li>
-                                            <li role="presentation"><a href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="3" href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-ecommerce-megaphone" style="font-size:60px;padding-top: 20px"></div>Marketing Digital</a></li>
-                                            <li role="presentation"><a href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="4" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
                                             <div class="icon icon icon-basic-world" style="font-size:60px;padding-top: 20px"></div>Social Media</a></li>
                                         </ul>
                                         <!-- Tab panes -->
@@ -869,7 +872,7 @@
                                         <img src="assets/images/pf1.jpg" alt="" />
                                         <div class="grid_item_overlay g_overlay_1">
                                             <a href="assets/images/pf1.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://www.cabinadefotos.me"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://www.cabinadefotos.me"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <a href="http://www.cabinadefotos.me"> <p> <i class="fa fa-link"></i> http://www.cabinadefotos.me </p></a>
                                     </div>
@@ -878,7 +881,7 @@
                                         <img src="assets/images/pf2.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf2.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://contratarfamosos.com.ar"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://contratarfamosos.com.ar"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <a href="http://contratarfamosos.com.ar"> <p> <i class="fa fa-link"></i> http://contratarfamosos.com.ar</p></a>
                                     </div>
@@ -887,7 +890,7 @@
                                         <img src="assets/images/pf7.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf7.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <a href="http://www.robotled.show/"> <p> <i class="fa fa-link"></i> http://www.robotled.show/</p></a>
                                     </div>
@@ -895,7 +898,7 @@
                                     <div class="single_portfolio tile scale-anm  web" >
                                         <img src="assets/images/pf3.jpg" alt="" />  
                                         <div class="grid_item_overlay">
-                                            <a href="assets/images/pf3.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="assets/images/pf3.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>-->
                                             <a href="#"> <i class="fa fa-search"></i></a>
                                         </div>
                                         <a href="http://www.logisticaintegral.com.ar"> <p> <i class="fa fa-link"></i> http://www.logisticaintegral.com.ar </p></a>
@@ -907,7 +910,7 @@
                                         <img src="assets/images/pf4.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf4.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <a href="http://www.reservaslogisticaintegral.net"> <p> <i class="fa fa-link"></i> http://www.reservaslogisticaintegral.net </p></a>
                                     </div>
@@ -916,16 +919,16 @@
                                         <img src="assets/images/pf11.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf11.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://contratarfamosos.com.ar"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://contratarfamosos.com.ar"> <i class="fa fa-link"></i></a>-->
                                         </div>
-                                        <a href="http://contratarfamosos.com.ar"> <p> <i class="fa fa-link"></i> http://contratarfamosos.com.ar</p></a>
+                                        <!--<a href="http://contratarfamosos.com.ar"> <p> <i class="fa fa-link"></i> http://contratarfamosos.com.ar</p></a>-->
                                     </div>
 
                                     <div class="single_portfolio tile scale-anm flyers ">
                                         <img src="assets/images/pf5.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf5.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                          <p>Hotelería</p>
                                     </div>
@@ -934,7 +937,7 @@
                                         <img src="assets/images/pf6.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf6.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <p>Restaurante</p>
                                     </div>
@@ -943,7 +946,7 @@
                                         <img src="assets/images/pf15.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf15.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <p>Sistema para el control de paquetes</p>
                                     </div>
@@ -952,16 +955,16 @@
                                         <img src="assets/images/pf10.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf10.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>-->
                                         </div>
-                                        <a href="http://www.robotled.show/"> <p> <i class="fa fa-link"></i> http://www.robotled.show/</p></a>
+                                        <!--<a href="http://www.robotled.show/"> <p> <i class="fa fa-link"></i> http://www.robotled.show/</p></a>-->
                                     </div>
 
                                     <div class="single_portfolio tile scale-anm web" >
                                         <img src="assets/images/pf16.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf16.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://http://chatsaway.com"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://http://chatsaway.com"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <a href="http://http://chatsaway.com"> <p> <i class="fa fa-link"></i> http://http://chatsaway.com</p></a>
                                     </div>
@@ -970,16 +973,16 @@
                                         <img src="assets/images/pf17.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf17.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://http://chatsaway.com"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://http://chatsaway.com"> <i class="fa fa-link"></i></a>-->
                                         </div>
-                                        <a href="http://http://chatsaway.com"> <p> <i class="fa fa-link"></i> http://http://chatsaway.com</p></a>
+                                        <!--<a href="http://http://chatsaway.com"> <p> <i class="fa fa-link"></i> http://http://chatsaway.com</p></a>-->
                                     </div>
 
                                     <div class="single_portfolio tile scale-anm flyers " >
                                         <img src="assets/images/pf13.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf13.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <p>Sistema de gestión académica</p>
                                     </div>
@@ -988,7 +991,7 @@
                                         <img src="assets/images/pf14.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf14.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="#"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="#"> <i class="fa fa-link"></i></a>-->
                                         </div>
                                         <p>App de barbería, para solicitud de citas</p>
                                     </div>
@@ -997,9 +1000,9 @@
                                         <img src="assets/images/pf12.jpg" alt="" />
                                         <div class="grid_item_overlay">
                                             <a href="assets/images/pf12.jpg" class="portfolio-img"> <i class="fa fa-search"></i></a>
-                                            <a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>
+                                            <!--<a href="http://www.robotled.show/"> <i class="fa fa-link"></i></a>-->
                                         </div>
-                                        <a href="http://www.robotled.show/"> <p> <i class="fa fa-link"></i> http://www.robotled.show/</p></a>
+                                        <!--<a href="http://www.robotled.show/"> <p> <i class="fa fa-link"></i> http://www.robotled.show/</p></a>-->
                                     </div>
 
                                     
@@ -1357,8 +1360,38 @@
         
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
-
         
+        <!--<script>
+            
+            $(document).ready(function(){
+                var prev = 0;
+                var id = 1;
+                setInterval(function(){
+                    if(id == 5){
+                        id = 1;
+                    }
+
+                    if(prev != 0){
+                    $('#'+prev).removeClass('cajaazul');    
+                    }
+                    $('#'+id).addClass('cajaazul');
+                    
+                    prev = id;
+                    id++;   
+
+
+                },5000);
+              
+            });
+
+        </script>-->
+
+        <script>
+            
+           document.getElementById('videoi').play();
+            
+
+        </script>
 
     </body>
 </html>

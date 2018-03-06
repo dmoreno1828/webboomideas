@@ -586,11 +586,10 @@ input::-ms-input-placeholder {
 .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
     color: #008ddf;
     padding-bottom: 22px;
-    border-bottom: 1px solid #008ddf;
   /*  background: transparent;*/
-  background-color: #fff;
+  background-color: transparent;
   height: 45px;
-  opacity: 0.7;
+  
 
 }
 
@@ -672,12 +671,26 @@ input::-ms-input-placeholder {
     background-size:cover;
     background-position:center;
 }
+
+/*mis clases*/
+
 video {
     width: 100%;
 }
+
+.cajaazul {
+    background: url(../images/stabmenubghv.png) no-repeat top center !important;
+    width: 250px;
+    height: 180px;
+    color: #fff !important;
+}
+
 .border-green {
     border-bottom: 5px solid #49ea09;
 }
+
+/*mis clases*/
+
 
 .home .main_home{
     padding-top: 250px;
@@ -804,11 +817,10 @@ video {
 
 
 /*video section css*/
-video{width: 100%}
+
 .video{
     background: url(../images/videobg.jpg) no-repeat top center;
-    background-size:cover;}
-
+    background-size:cover;
 }
 .video .main_video{
     padding: 220px 0px 160px 0px;
@@ -1248,8 +1260,8 @@ button.btn-md:hover {
     display: block
 }*/
 .grid_item_overlay a i{
-    width:30px;
-    height: 30px;
+    width:50px;
+    height: 50px;
     line-height: 30px;
     text-align: center;
     border:1px solid #fff;

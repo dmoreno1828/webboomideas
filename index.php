@@ -439,6 +439,13 @@
                 </div>
             </section>-->
 
+            <section id="parallax1" class="parallax1">
+                <div class="container">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <h2 style="color:white; text-align: center">Empresa formada por profesionales del mas alto nivel dedicados al crecimiento y expansión de los negocios de nuestros clientes</h2>        
+                </div>
+            </section>
+
             <section id="othersservice" class="othersservice">
                 <div class="container" style="margin-top: 100px">
                     <div class="row">
@@ -1015,6 +1022,17 @@
             </section> 
 
             
+
+            <section id="parallax2" class="parallax2">
+                <div class="container">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <h2 style="color:white; text-align: center">Desarrollo de software a medida, diseño y construcción de páginas web, marketing digital y social media.</h2>        
+                </div>
+            </section>
+
+
+
+
                                 
                 <section id="clogo" class="clogo">
                     
@@ -1589,6 +1607,8 @@
         </script>
 
 
+
+        
 
     </body>
 </html>

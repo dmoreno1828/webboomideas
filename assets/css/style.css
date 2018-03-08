@@ -10,7 +10,7 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: #fff;
-    font-size: 0.875rem;
+    font-size: 14px;
     color: #797979;
     width: 100%;
     padding: 0;
@@ -689,6 +689,16 @@ video {
     border-bottom: 5px solid #49ea09;
 }
 
+p {
+    color: #444 !important;
+}
+.footer p {
+    color: #fff !important;
+}
+.footer_widget p {
+    color: #fff !important;
+}
+
 /*mis clases*/
 
 
@@ -929,8 +939,6 @@ video {
 .skillbar {
     background: transparent;
     display: block;
-    height: 7px;
-    margin-bottom: 64px;
     top: 65px;
     position: relative;
     transition-delay: 0s;
@@ -938,7 +946,7 @@ video {
     transition-property: width, background-color;
     transition-timing-function: linear;
     width: 100%;
-    border:1px solid #dddddd;
+    
 }
 .skillbar-title {
     color: #323232;
@@ -1030,6 +1038,8 @@ video {
     text-align: center;  
     margin-right: 10px;
     transition: 0.6s; 
+    position: relative;
+
 }
 .othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
     /*background: url(../images/iconbgh2.png) no-repeat center center; */

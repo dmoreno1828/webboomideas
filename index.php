@@ -150,18 +150,18 @@
                                     <div class="service_tabe">
                                         <!-- Nav tabs -->
                                         <ul class="service_tabe_menu nav nav-tabs" role="tablist">
-                                            <li role="presentation" class="active"><a id="1" href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation" class="active"><a id="1" class="roudns" href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-display" style="font-size:60px;padding-top: 20px"></div>Diseño de Software, Web y Apps Móviles</a></li>
-                                            <li role="presentation"><a id="2" href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="2" class="roudns" href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-cloud" style="font-size:60px;padding-top: 20px"></div>Alojamiento en la Nube</a></li>
-                                            <li role="presentation"><a id="3" href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="3" class="roudns" href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-ecommerce-megaphone" style="font-size:60px;padding-top: 20px"></div>Marketing Digital</a></li>
-                                            <li role="presentation"><a id="4" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
+                                            <li role="presentation"><a id="4" class="roudns" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
                                             <div class="icon icon icon-basic-world" style="font-size:60px;padding-top: 20px"></div>Social Media</a></li>
                                         </ul>
                                         <!-- Tab panes -->
                                         <div class="tab-content">
-                                            <div role="tabpanel" class="tab-pane active" id="webdesign">
+                                            <div role="tabpanel" class="tab-pane desds active" id="webdesign">
                                                 <div class="single_service_tab">
                                                     <div class="row">
                                                         <div class="col-sm-6">
@@ -197,7 +197,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div role="tabpanel" class="tab-pane" id="appdesign">
+                                            <div role="tabpanel" class="tab-pane desds" id="appdesign">
                                                 <div class="single_service_tab">
                                                     <div class="row">
                                                         <div class="col-sm-6">
@@ -218,7 +218,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div role="tabpanel" class="tab-pane" id="graphicdesign">
+                                            <div role="tabpanel" class="tab-pane desds" id="graphicdesign">
                                                 <div class="single_service_tab">
                                                     <div class="row">
                                                         <div class="col-sm-6">
@@ -240,7 +240,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div role="tabpanel" class="tab-pane" id="gamedesign">
+                                            <div role="tabpanel" class="tab-pane desds" id="gamedesign">
                                                 <div class="single_service_tab">
                                                     <div class="row">
                                                         <div class="col-sm-6">
@@ -273,7 +273,7 @@
                 </div>
             </section>
             
-            <section id="about" class="about">
+            <!--<section id="about" class="about">
                 <div class="container">
                     <div class="row">
 
@@ -328,7 +328,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--<div class="skillbar"></div>
+                                    <div class="skillbar"></div>
                                       <div class="row">
                                         <div class="about_skill_area">
                                           <div class="col-sm-6">
@@ -430,20 +430,20 @@
                                                 </div>
                                             </div>
                                         </div> 
-                                    </div>-->
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <section id="othersservice" class="othersservice">
-                <div class="container">
+                <div class="container" style="margin-top: 100px">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="main_othersservice_area sectionsc">
+                            <div id ="oter" class="main_othersservice_area sectionsc">
                                 <div class="row">
                                     <div class="head_title">
                                         <h3>&nbsp;&nbsp;&nbsp;Soluciones Prácticas</h3>
@@ -453,7 +453,7 @@
                                         <div class="col-sm-4">
                                             <div class="single_othersservice">
                                                 <div class="single_othersservice_icon">
-                                                    <h4><span><i class="icon icon icon-basic-headset" style="font-size:60px;color:#008ddf"></i>
+                                                    <h4><span><i id ="ic" class="icon icon icon-basic-headset" style="font-size:80px;color:#008ddf"></i>
                                                     </span><strong>PERSONAL PROFESIONAL</strong></h4>
                                                 </div>
                                                 <div class="single_othersservice_content">
@@ -464,7 +464,7 @@
                                         <div class="col-sm-4">
                                             <div class="single_othersservice">
                                                 <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="icon icon-basic-picture-multiple" style="font-size:60px;color:#eb089d"></i></span><strong>DISEÑO WEB RESPONSIVE</strong></h4>
+                                                    <h4> <span><i id ="ic2" class="icon icon-basic-picture-multiple" style="font-size:80px;color:#eb089d"></i></span><strong>DISEÑO WEB RESPONSIVE</strong></h4>
                                                 </div>
                                                 <div class="single_othersservice_content">
                                                     <p>Todos nuestros sitios web se pueden visualizar de cualquier dispositivo electrónico</p>
@@ -474,7 +474,7 @@
                                         <div class="col-sm-4">
                                             <div class="single_othersservice">
                                                 <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="icon icon-basic-lightbulb" style="font-size:60px;color:#49ea09"></i></span><strong>IDEAS CREATIVAS</strong></h4>
+                                                    <h4> <span><i id ="ic3" class="icon icon-basic-lightbulb" style="font-size:80px;color:#49ea09"></i></span><strong>IDEAS CREATIVAS</strong></h4>
                                                 </div>
                                                 <div class="single_othersservice_content">
                                                     <p>Ideamos una solución a tu problema , planteamos ideas a tu negocio.</p>
@@ -484,7 +484,7 @@
                                         <div class="col-sm-4">
                                             <div class="single_othersservice">
                                                 <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="icon icon-basic-share" style="font-size:60px;color:#e8d200"></i></span><strong>MARKETING</strong></h4>
+                                                    <h4> <span><i id ="ic4" class="icon icon-basic-share" style="font-size:80px;color:#e8d200"></i></span><strong>MARKETING</strong></h4>
                                                 </div>
                                                 <div class="single_othersservice_content">
                                                     <p> Aplicamos técnicas de comercialización para empreder tu negocio</p>
@@ -495,7 +495,7 @@
                                         <div class="col-sm-4">
                                             <div class="single_othersservice">
                                                 <div class="single_othersservice_icon">
-                                                    <h4> <span><i class="icon icon icon-basic-rss" style="font-size:60px;color:#0893f2"></i><strong>RRSS</strong></h4>
+                                                    <h4> <span><i id ="ic5" class="icon icon icon-basic-rss" style="font-size:80px;color:#0893f2"></i><strong>RRSS</strong></h4>
                                                 </div>
                                                 <div class="single_othersservice_content">
                                                     <p>Campañas y ventas en RRSS</p>
@@ -507,7 +507,7 @@
                                             <div class="single_othersservice">
                                                 <div class="s_ot_i_area">
                                                     <div class="single_othersservice_icon">
-                                                        <h4><span><i class="icon icon-basic-pencil-ruler" style="font-size:60px;color:#eb089d"></i><strong>Web 2.0</strong></h4>
+                                                        <h4><span><i id ="ic6" class="icon icon-basic-pencil-ruler" style="font-size:80px;color:#eb089d"></i><strong>Web 2.0</strong></h4>
                                                     </div>
                                                 </div>
                                                 <div class="single_othersservice_content">
@@ -1036,25 +1036,28 @@
                             
                             </div>
 
-                                <div class="container">
+                                <div id="takp" class="container">
+                                    
+                                    <div class="col-sm-2 col-xs-6" style="position: relative"> 
+                                        <a href=""><img id="tak" src="assets/images/clogo1.png" alt="" /></a>
+                                    </div>
+                                    <div class="col-sm-2 col-xs-6"> 
+                                        <a href=""><img id="tak2" src="assets/images/clogo2.png" alt="" /></a>
+                                    </div>
+                                    
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href=""><img id="tak4" src="assets/images/clogo11.png" alt="" /></a>
+                                    </div>
                                     
                                     <div class="col-sm-2 col-xs-6"> 
-                                        <a href=""><img src="assets/images/clogo1.png" alt="" /></a>
+                                        <a href=""><img id="tak3" src="assets/images/clogo3.png" alt="" /></a>
                                     </div>
+                                    
                                     <div class="col-sm-2 col-xs-6"> 
-                                        <a href=""><img src="assets/images/clogo2.png" alt="" /></a>
-                                    </div>
-                                    <div class="col-sm-2 col-xs-6"> 
-                                        <a href=""><img src="assets/images/clogo3.png" alt="" /></a>
-                                    </div>
-                                    <div class="col-sm-2 col-xs-6" style="width: 110px;left: 0px;margin-left: 10px;margin-right: 10px;">
-                                        <a href=""><img style="width: 80px;" src="assets/images/clogo11.png" alt="" /></a>
-                                    </div>
-                                    <div class="col-sm-2 col-xs-6"> 
-                                        <a href=""><img src="assets/images/clogo5.png" alt="" /></a>
+                                        <a href=""><img id="tak5" src="assets/images/clogo5.png" alt="" /></a>
                                     </div>
                                     <div class="col-sm-2 col-xs-6">
-                                        <a href=""><img style="width: 60px; height: 75px;" src="assets/images/clogo12.png" alt="" /></a>
+                                        <a href=""><img id="tak6" src="assets/images/clogo12.png" alt="" /></a>
                                     </div>
                           
                                 </div>
@@ -1285,6 +1288,7 @@
                     </div>
                 </div>
             </section>
+            
             <section class="footer">
                 <div class="container">
                     <div class="row">
@@ -1317,7 +1321,7 @@
                 </div>
             </section>
             <div class="skillbar"></div>
-        </div>
+    </div>
 
         <!-- START SCROLL TO TOP  -->
 
@@ -1332,6 +1336,7 @@
         <script src="assets/js/jquery.mixitup.min.js"></script>
         <script src="assets/js/jquery.easing.1.3.js"></script>
         <script src="assets/js/jquery.masonry.min.js"></script>
+        <script src="assets/js/jQueryRotate.js"></script>
 
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
         <script src="http://maps.google.com/maps/api/js"></script>
@@ -1361,30 +1366,91 @@
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
         
-        <!--<script>
+        <script>
             
             $(document).ready(function(){
                 var prev = 0;
                 var id = 1;
-                setInterval(function(){
-                    if(id == 5){
-                        id = 1;
-                    }
+                var repetir = setInterval(function(){
+                        if(id == 5){
+                            id = 1;
+                        }
 
-                    if(prev != 0){
-                    $('#'+prev).removeClass('cajaazul');    
-                    }
-                    $('#'+id).addClass('cajaazul');
+                        if(prev != 0){
+                            $('#'+prev).removeClass('cajaazul');
+
+                        }
+
+
+                        $('#'+id).addClass('cajaazul');
+
+                        if(id == 1){
+                            //document.location.href="#webdesign";
+                            $('#gamedesign').removeClass('active');
+                            $('#webdesign').addClass('active');
+
+                        }else if(id == 2){
+                            //document.location.href="#appdesign";
+                            $('#webdesign').removeClass('active');
+                            $('#appdesign').addClass('active');
+                        }else if(id == 3){
+                            //document.location.href="#graphicdesign";
+                            $('#appdesign').removeClass('active');
+                            $('#graphicdesign').addClass('active');
+                        }else{
+                            //document.location.href="#gamedesign";
+                            $('#graphicdesign').removeClass('active');
+                            $('#gamedesign').addClass('active');
+                        } 
+                         
+                           
+                        prev = id;
+                        id++;   
                     
-                    prev = id;
-                    id++;   
+                    },3000);
+                
+                $('.roudns').click(function(){
+
+                    clearInterval(repetir);
+                    var x = $(this).attr('href');
+                    $('.roudns').removeClass('cajaazul');
+                    $(this).addClass('cajaazul');
+                    $('.desds').removeClass('active');
+                    $(x).addClass('active');
+                    /*
+                    var x = $('a').attr('id');
+                        
+                    $('.roudns').removeClass('cajaazul');
+                    $('#appdesign').removeClass('active');
+                    $('#webdesign').removeClass('active');
+                    $('#graphicdesign').removeClass('active');
+                    $('#gamedesign').removeClass('active');
+
+                    if(x == 1){
+                        $('#webdesign').addClass('active');
+
+                    }else if(x == 2){
+                        $('#appdesign').addClass('active');
+                    }else if(x == 3){
+                        $('#graphicdesign').addClass('active');
+                    }else{
+                        $('#gamedesign').addClass('active');
+                    } */
 
 
-                },5000);
-              
+
+
+                        //$(this).mouseleave(function(){
+                        //setInterval(repetir);    
+
+                });
             });
 
-        </script>-->
+        </script>
+
+        
+
+
 
         <script>
             
@@ -1392,6 +1458,137 @@
             
 
         </script>
+
+        
+        <!-- animaciones inconos -->
+        <script>
+            
+            $(document).ready(function(){
+                
+                $("#ic").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+
+                $("#ic2").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+
+                $("#ic3").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+
+                $("#ic4").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+
+                $("#ic5").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+
+                $("#ic6").mouseenter(function() {
+                    $(this).animate({top:-25});
+                    $(this).rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).animate({top:0});
+                    $(this).rotate({animateTo:0});
+                });
+            
+            });
+
+        </script>
+
+        <script>
+            
+            /*$(document).ready(function(){
+                $("#takp").mouseenter(function() {
+                    $(this).find("#tak").animate({top:-20});
+                    $(this).find("#tak").rotate({animateTo:8});
+                }).mouseleave(function() {
+                    $(this).find("#tak").animate({top:0});
+                    $(this).find("#tak").rotate({animateTo:0});
+                });
+            });*/
+
+            $(document).ready(function (){
+                
+                $('#tak').on('mouseenter', function ()
+                {
+                    $(this).width(140);
+                });
+                $('#tak').on('mouseleave', function ()
+                {
+                    $(this).width(160);
+                });
+
+                $('#tak2').on('mouseenter', function ()
+                {
+                    $(this).width(140);
+                });
+                $('#tak2').on('mouseleave', function ()
+                {
+                    $(this).width(160);
+                });
+
+                $('#tak3').on('mouseenter', function ()
+                {
+                    $(this).width(140);
+                });
+                $('#tak3').on('mouseleave', function ()
+                {
+                    $(this).width(160);
+                });
+
+                $('#tak4').on('mouseenter', function ()
+                {
+                    $(this).width(140);
+                });
+                $('#tak4').on('mouseleave', function ()
+                {
+                    $(this).width(160);
+                });
+
+                $('#tak5').on('mouseenter', function ()
+                {
+                    $(this).width(140);
+                });
+                $('#tak5').on('mouseleave', function ()
+                {
+                    $(this).width(160);
+                });
+
+                $('#tak6').on('mouseenter', function ()
+                {
+                    $(this).width(120);
+                });
+                $('#tak6').on('mouseleave', function ()
+                {
+                    $(this).width(140);
+                });
+            });
+
+        </script>
+
+
 
     </body>
 </html>

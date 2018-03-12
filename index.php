@@ -111,7 +111,7 @@
             <section id="home" class="home">
                 <video id="videoi" class="border-green">
                     
-                        <source src="assets/images/videointro2.mp4" type="video/mp4">
+                        <source src="assets/images/videointro3.mp4" type="video/mp4">
                             
                     <div class="row">
                             <div class="col-sm-12 ">
@@ -137,7 +137,7 @@
 
             <section id="service" class="service">
                 <div class="col-md-12"><br></div>
-                <div class="container">
+                <div class="container" style="height: 1080px">
                     <div class="row">
                         <div class="head_title">
                             <h1>&nbsp;</h1>

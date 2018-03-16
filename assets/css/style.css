@@ -699,6 +699,41 @@ p {
     color: #fff !important;
 }
 
+#menu {
+ float:left;
+ left:50%;
+ list-style-type:none;
+ margin:0 auto;
+ padding:0;
+ position:relative;
+}
+
+#menu li {
+ float:left;
+ position:relative;
+ right:50%;
+}
+
+.icono {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width:90px; 
+    height:80px;
+}
+.icono2 {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height:80px;
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .tamañosec {
+        height: 1080px;
+    }
+}
+
+
 
 /*pararallax*/
 
@@ -770,7 +805,11 @@ background-size: cover;
 
 }
 
+video {
+    margin-top: -75px !important;
+}
 
+/*mis clases*/
 
 .home .owl-theme .owl-nav {
     
@@ -790,6 +829,10 @@ background-size: cover;
     -moz-border-radius: 0px;
     border-radius: 0px;
     transform: rotate(45deg);
+}
+
+p {
+    font-size: 14px;
 }
 
 
@@ -1529,10 +1572,13 @@ button.btn-md:hover {
 }
 
 #map_canvas{
-    height: 160px; 
+    height: 250px; 
     width: 100%;
 }
 
+#maps {
+    height: 250px;
+}
 
 
 

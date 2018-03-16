@@ -43,7 +43,7 @@
 
 
 
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="200">
         <!--[if lt IE 8]>
@@ -109,9 +109,10 @@
             </header> <!--End of header -->
 
             <section id="home" class="home">
-                <video id="videoi" class="border-green">
-                    
-                        <source src="assets/images/videointro3.mp4" type="video/mp4">
+                <video id="videoi" class="border-green" autoplay>
+                        
+                        <source src="assets/images/videointro5.webm" type="video/webm">
+                        <source src="assets/images/videointro5.mp4" type="video/mp4">
                             
                     <div class="row">
                             <div class="col-sm-12 ">
@@ -135,9 +136,9 @@
             </section>
             
 
-            <section id="service" class="service">
+            <!--<section id="service" class="service">
                 <div class="col-md-12"><br></div>
-                <div class="container" style="height: 1080px">
+                <div class="container">
                     <div class="row">
                         <div class="head_title">
                             <h1>&nbsp;</h1>
@@ -148,18 +149,28 @@
                             <div class="main_service_area">
                                 <div class="main_service_content">
                                     <div class="service_tabe">
-                                        <!-- Nav tabs -->
-                                        <ul class="service_tabe_menu nav nav-tabs" role="tablist">
+                                        <!-- Nav tabs 
+                                        <ul  class="service_tabe_menu nav nav-tabs" role="tablist">
                                             <li role="presentation" class="active"><a id="1" class="roudns" href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-display" style="font-size:60px;padding-top: 20px"></div>Diseño de Software, Web y Apps Móviles</a></li>
                                             <li role="presentation"><a id="2" class="roudns" href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-basic-cloud" style="font-size:60px;padding-top: 20px"></div>Alojamiento en la Nube</a></li>
                                             <li role="presentation"><a id="3" class="roudns" href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
                                             <div class="icon icon-ecommerce-megaphone" style="font-size:60px;padding-top: 20px"></div>Marketing Digital</a></li>
-                                            <li role="presentation"><a id="4" class="roudns" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
+                                            <!--<li role="presentation"><a id="4" class="roudns" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
                                             <div class="icon icon icon-basic-world" style="font-size:60px;padding-top: 20px"></div>Social Media</a></li>
                                         </ul>
-                                        <!-- Tab panes -->
+                                        <ul  class="service_tabe_menu nav nav-tabs" role="tablist">                           
+                                            <li role="presentation" class="active" style="margin-top: 10px"><a id="1" class="roudns" href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab">
+                                            <div class="icon icon-basic-display" style="font-size:60px;padding-top: 20px"></div>Diseño de Software, Web y Apps Móviles</a></li>
+                                            <li role="presentation" style="margin-top: 10px"><a id="2" class="roudns" href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab">
+                                            <div class="icon icon-basic-cloud" style="font-size:60px;padding-top: 20px"></div>Alojamiento en la Nube</a></li>
+                                            <li role="presentation" style="margin-top: 10px"><a id="3" class="roudns" href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab">
+                                            <div class="icon icon-ecommerce-megaphone" style="font-size:60px;padding-top: 20px"></div>Marketing Digital</a></li>
+                                            <!--<li role="presentation" style="margin-top: 10px"><a id="4" class="roudns" href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab">
+                                            <div class="icon icon icon-basic-world" style="font-size:60px;padding-top: 20px"></div>Social Media</a></li>
+                                        </ul>
+                                        <!-- Tab panes 
                                         <div class="tab-content">
                                             <div role="tabpanel" class="tab-pane desds active" id="webdesign">
                                                 <div class="single_service_tab">
@@ -176,7 +187,7 @@
                                                                 <p class="text-justify"> Sabemos lo importante que es que tu empresa tenga presencia en internet, la imágen lo es todo, por ello te ofrecemos la creación de webs a medida, sin plantillas, con asesoramiento de nuestros arquitectos web… lo que nos pidas lo podemos lograr.</p>
                                                                 <h3>Aplicaciones Móviles</h3>
                                                                 <p class="text-justify"> Toda empresa debe estar inmersa en el mundo tecnológico, por esa razón desarrollamos su aplicación móvil de calidad de acuerdo a sus necesidades.</p>
-                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>-->
+                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>
                                                             </div>
                                                         </div>
                                                         <div class="main_features_content features">
@@ -207,7 +218,7 @@
                                                                     <div class="separator"></div>
                                                                 </div>
                                                                 <p class="text-justify">Poseemos tecnología de punta con servidores dedicados en data centers que garantizan su rápido funcionamiento y soporte técnico las 24 horas. Tenemos a tu disposición el servicio de hosting, adquisición de dominios, servidores para  aplicaciones webs y mucho más.</p>
-                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>-->
+                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-sm-6">
@@ -229,7 +240,7 @@
                                                                 </div>
                                                                 <p class="text-justify">SEO posicionamiento efectivo en los buscadores web mas utilizados. Sabemos cómo hacer crecer tu negocio en la web 2.0. </p>
 
-                                                                 <!--<a href="" class="btn btn-primary">Leer Más</a>-->
+                                                                 <!--<a href="" class="btn btn-primary">Leer Más</a>
                                                             </div>
                                                         </div>
                                                         <div class="col-sm-6">
@@ -251,7 +262,7 @@
                                                                     <div class="separator"></div>
                                                                 </div>
                                                                 <p>Te ofrecemos las mas acertadas estrategias de branding, inbound marketing, campañas y ventas en RRSS. </p>
-                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>-->
+                                                                <!--<a href="" class="btn btn-primary">Leer Más</a>
                                                             </div>
                                                         </div>
 
@@ -260,7 +271,7 @@
                                                                 <img src="assets/images/social-media.png" alt="" />
                                                             </div>
                                                         </div>
-                                                        <!--                                                        <div id="pentagon"></div>-->
+                                                        <!--                                                        <div id="pentagon"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -271,7 +282,107 @@
                         </div>
                     </div>
                 </div>
+            </section>-->
+
+            <section id="service" class="othersservice">
+                <div class="container" style="margin-top: 100px">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id ="oter" class="main_othersservice_area sectionsc">
+                                <div class="row">
+                                    <div class="head_title">
+                                        <h3>&nbsp;&nbsp;&nbsp;Servicios</h3>
+                                        <div class="separator"></div>
+                                    </div>
+                                    <div class="main_othersservice_content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    <div class="single_othersservice_icon">
+                                                        <!--<h4><span><i id ="ic" class="icon icon icon-basic-headset" style="font-size:80px;color:#008ddf"></i>-->
+
+                                                        <h4><img src="assets/images/icon3.png" class="icono" id="ic"><strong> SOFTWARE</strong></h4>
+                                                    </div>
+                                                    <div class="single_othersservice_content">
+                                                        <p>Desarrollamos sistemas personalizados para empresas, en búsqueda de la solución óptima para su negocio, ya que utilizamos sus ideas en pro de obtener un sistema intuitivo, amigable, robusto y confiable.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    <div class="single_othersservice_icon">
+                                                        <!--<h4> <span><i id ="ic2" class="icon icon-basic-picture-multiple" style="font-size:80px;color:#eb089d"></i></span>-->
+                                                        
+                                                        <h4><img src="assets/images/icon5.png" class="icono" id="ic2"><strong> DISEÑO WEB</strong></h4>
+                                                    </div>
+                                                    <div class="single_othersservice_content">
+                                                        <p>Sabemos lo importante que es que tu empresa tenga presencia en internet, la imagen lo es todo, por ello te ofrecemos la creación de webs a medida, sin plantillas, con asesoramiento de nuestros arquitectos web… lo que nos pidas lo podemos lograr.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    
+                                                    <div class="single_othersservice_icon">
+                                                            <!--<h4><span><i id ="ic6" class="icon icon-basic-pencil-ruler" style="font-size:80px;color:#eb089d"></i></span>-->
+
+                                                                <h4><img src="assets/images/icon2.png" class="icono2" id="ic6"><strong>DISEÑO DE APP</strong></h4>
+                                                    </div>
+                                                    
+                                                    <div class="single_othersservice_content">
+                                                        <p>Creamos aplicaciones Android e iOS 100% nativas, multifuncionales disponibles para iPhone, iPad, Android y PWA. Integramos tu App con otras aplicaciones, tiendas o con tu propio website.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                            <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    <div class="single_othersservice_icon">
+                                                        <!--<h4> <span><i id ="ic4" class="icon icon-basic-share" style="font-size:80px;color:#e8d200"></i></span>-->
+
+                                                            <h4><img src="assets/images/icon6.png" class="icono2" id="ic4"><strong>MARKETING DIGITAL</strong></h4>
+                                                    </div>
+                                                    <div class="single_othersservice_content">
+                                                        <p>SEO posicionamiento efectivo en los buscadores web más utilizados. Sabemos cómo hacer crecer tu negocio en la web 2.0, compartiendo información fácilmente para el intercambio casi instantáneo de piezas que antes eran imposibles, como imágenes y videos.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    <div class="single_othersservice_icon">
+                                                        <!--<h4> <span><i id ="ic5" class="icon icon icon-basic-rss" style="font-size:80px;color:#0893f2"></i></span>-->
+
+                                                            <h4><img src="assets/images/icon1.png" class="icono" id="ic5"><strong>ALOJAMIENTO EN LA NUBE</strong></h4>
+                                                    </div>
+                                                    <div class="single_othersservice_content">
+                                                        <p>Poseemos tecnología de punta con servidores dedicados en data centers que garantizan su rápido funcionamiento y soporte técnico las 24 horas. Tenemos a tu disposición el servicio de hosting, dominios, servidores webs y mucho más.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <div class="single_othersservice">
+                                                    <div class="single_othersservice_icon">
+                                                        <!--<h4> <span><i id ="ic3" class="icon icon-basic-lightbulb" style="font-size:80px;color:#49ea09"></i></span>-->
+
+                                                            <h4><img src="assets/images/icon4.png" class="icono" id="ic3"><strong>DISEÑO GRÁFICO</strong></h4>
+                                                    </div>
+                                                    <div class="single_othersservice_content">
+                                                        <p>Creamos para ti diseños vanguardistas que se adaptan a tu imagen. Nuestro equipo creativo rompe la rutina, creando desde otra perspectiva, en búsqueda de realzar el valor a tu marca. Si lo puedes imaginar, lo podemos hacer.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
             </section>
+
+
             
             <!--<section id="about" class="about">
                 <div class="container">
@@ -437,6 +548,7 @@
                         </div>
                     </div>
                 </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit iure et qui veniam, placeat aut illo doloremque autem quam debitis. Fuga culpa, magni dicta necessitatibus delectus vel alias consequuntur praesentium.
             </section>-->
 
             <section id="parallax1" class="parallax1">
@@ -446,7 +558,7 @@
                 </div>
             </section>
 
-            <section id="othersservice" class="othersservice">
+            <!--<section id="othersservice" class="othersservice">
                 <div class="container" style="margin-top: 100px">
                     <div class="row">
                         <div class="col-sm-12">
@@ -529,7 +641,7 @@
                         </div>
                     </div>
                 </div>
-            </section>  
+            </section>-->  
         
             <!--<section id="features" class="features">
                 <div class="container">
@@ -865,9 +977,9 @@
                             </div>
                             <div class="col-sm-7 col-sm-offset-2" style="margin-left: 25px;">
                                 <div id="filters" class="toolbar mb2 mt2">
-                                    <button class="btn-md fil-cat filter active" href=""  data-filter="all">Todos</button>
+                                    <!--<button class="btn-md fil-cat filter" href=""  data-filter="all">Todos</button>-->
+                                    <button class="btn-md fil-cat filter active" data-rel="flyers" data-filter=".flyers">Desarrollo de Software</button>
                                     <button class="btn-md fil-cat filter" data-rel="web" data-filter=".web">Páginas Web</button>
-                                    <button class="btn-md fil-cat filter" data-rel="flyers" data-filter=".flyers">Desarrollo de Software</button> 
                                     <button class="btn-md fil-cat filter" data-rel="bcards" data-filter=".bcards">App Móvil</button> 
                                     <div class="separator2"></div>
                                 </div> 
@@ -1059,12 +1171,9 @@
                                     <div class="col-sm-2 col-xs-6" style="position: relative"> 
                                         <a href=""><img id="tak" src="assets/images/clogo1.png" alt="" /></a>
                                     </div>
+                                    
                                     <div class="col-sm-2 col-xs-6"> 
                                         <a href=""><img id="tak2" src="assets/images/clogo2.png" alt="" /></a>
-                                    </div>
-                                    
-                                    <div class="col-sm-2 col-xs-6">
-                                        <a href=""><img id="tak4" src="assets/images/clogo11.png" alt="" /></a>
                                     </div>
                                     
                                     <div class="col-sm-2 col-xs-6"> 
@@ -1074,6 +1183,11 @@
                                     <div class="col-sm-2 col-xs-6"> 
                                         <a href=""><img id="tak5" src="assets/images/clogo5.png" alt="" /></a>
                                     </div>
+
+                                    <div class="col-sm-2 col-xs-6">
+                                        <a href=""><img id="tak4" src="assets/images/clogo11.png" alt="" /></a>
+                                    </div>
+
                                     <div class="col-sm-2 col-xs-6">
                                         <a href=""><img id="tak6" src="assets/images/clogo12.png" alt="" /></a>
                                     </div>
@@ -1108,7 +1222,7 @@
                                                             </div>
                                                             <div class="single_info_text">
                                                                 <h3>Visítanos en</h3>
-                                                                <p>Av. Rivadavia 1545 7mo F, CABA CP C 1033 AAF, Buenos Aires Argentina </p>
+                                                                <p>San Nicolás, Ciudad autónoma de Buenos Aires</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1226,15 +1340,15 @@
                     </div>
             </section>  <!-- End of contact section -->
 
-            <section id="maps" class="maps">
+            <section id="maps">
                 <div class="map-overlay">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="main_maps text-center">
                                 <div class="col-sm-12 no-padding">
                                     <div class="map_canvas_icon">
-                                        <i class="fa fa-map-marker" onClick="showmap()"></i>
-                                        <h2 onClick="showmap()">ENCUÉNTRENOS EN GOOGLE MAPS</h2>
+                                        <i class="fa fa-map-marker"></i>
+                                        <h2>ENCUÉNTRENOS EN GOOGLE MAPS</h2>
                                     </div>
                                     <div id="map_canvas"></div>
                                 </div>
@@ -1349,23 +1463,29 @@
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
-
+        
         <script src="assets/js/jquery.magnific-popup.js"></script>
         <script src="assets/js/jquery.mixitup.min.js"></script>
         <script src="assets/js/jquery.easing.1.3.js"></script>
         <script src="assets/js/jquery.masonry.min.js"></script>
         <script src="assets/js/jQueryRotate.js"></script>
 
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-        <script src="http://maps.google.com/maps/api/js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAnFdCD0_7i9hI-K7FFh_Vzd-6q_dlQS5M"></script>
+        
         <script src="assets/js/gmaps.min.js"></script>
+    
+        <!--<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>-->
+        <script>
+            
+           document.getElementById('videoi').play();
+            
 
-
+        </script>
         <script>
 
-            function showmap() {
+ 
                
-               var uluru = {lat: -34.6088755, lng: -58.3884759};
+               var uluru = {lat: -34.6038063, lng: -58.3890462};
                var mapOptions = {
                     zoom: 20,
                     scrollwheel: true,
@@ -1377,14 +1497,14 @@
                 position: uluru,
                 map: map
                 });
-            }
+            
         </script>
 
         
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
         
-        <script>
+        <!--<script>
             
             $(document).ready(function(){
                 var prev = 0;
@@ -1464,18 +1584,18 @@
                 });
             });
 
-        </script>
+        </script>-->
 
         
 
 
 
-        <script>
+        <!--<script>
             
            document.getElementById('videoi').play();
             
 
-        </script>
+        </script>-->
 
         
         <!-- animaciones inconos -->
@@ -1535,7 +1655,7 @@
 
         </script>
 
-        <script>
+        <!--<script>
             
             /*$(document).ready(function(){
                 $("#takp").mouseenter(function() {
@@ -1549,62 +1669,62 @@
 
             $(document).ready(function (){
                 
-                $('#tak').on('mouseenter', function ()
+                $('#ic').on('mouseenter', function ()
+                {
+                    $(this).top(25);
+                });
+                $('#ic').on('mouseleave', function ()
+                {
+                    $(this).top(25);
+                });
+
+                $('#ic2').on('mouseenter', function ()
                 {
                     $(this).width(140);
                 });
-                $('#tak').on('mouseleave', function ()
+                $('#ic2').on('mouseleave', function ()
                 {
                     $(this).width(160);
                 });
 
-                $('#tak2').on('mouseenter', function ()
+                $('#ic3').on('mouseenter', function ()
                 {
                     $(this).width(140);
                 });
-                $('#tak2').on('mouseleave', function ()
+                $('#ic3').on('mouseleave', function ()
                 {
                     $(this).width(160);
                 });
 
-                $('#tak3').on('mouseenter', function ()
+                $('#ic4').on('mouseenter', function ()
                 {
                     $(this).width(140);
                 });
-                $('#tak3').on('mouseleave', function ()
+                $('#ic4').on('mouseleave', function ()
                 {
                     $(this).width(160);
                 });
 
-                $('#tak4').on('mouseenter', function ()
+                $('#ic5').on('mouseenter', function ()
                 {
                     $(this).width(140);
                 });
-                $('#tak4').on('mouseleave', function ()
+                $('#ic5').on('mouseleave', function ()
                 {
                     $(this).width(160);
                 });
 
-                $('#tak5').on('mouseenter', function ()
-                {
-                    $(this).width(140);
-                });
-                $('#tak5').on('mouseleave', function ()
-                {
-                    $(this).width(160);
-                });
-
-                $('#tak6').on('mouseenter', function ()
+                $('#ic6').on('mouseenter', function ()
                 {
                     $(this).width(120);
                 });
-                $('#tak6').on('mouseleave', function ()
+                $('#ic6').on('mouseleave', function ()
                 {
                     $(this).width(140);
                 });
             });
 
-        </script>
+        </script>-->
 
 
 

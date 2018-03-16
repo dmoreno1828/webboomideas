@@ -70,7 +70,7 @@
                                                 <span class="icon-bar"></span>
                                             </button>
                                             <a class="navbar-brand" href="#home">
-                                                <img src="assets/images/logo.png"/>
+                                                <img src="assets/images/logo.png" class="img-responsive" />
                                             </a>
                                         </div>
 
@@ -111,8 +111,8 @@
             <section id="home" class="home">
                 <video id="videoi" class="border-green" autoplay>
                         
-                        <source src="assets/images/videointro5.webm" type="video/webm">
-                        <source src="assets/images/videointro5.mp4" type="video/mp4">
+                        <source src="assets/images/videointro6.webm" type="video/webm">
+                        <source src="assets/images/videointro6.mp4" type="video/mp4">
                             
                     <div class="row">
                             <div class="col-sm-12 ">
@@ -304,7 +304,7 @@
                                                         <h4><img src="assets/images/icon3.png" class="icono" id="ic"><strong> SOFTWARE</strong></h4>
                                                     </div>
                                                     <div class="single_othersservice_content">
-                                                        <p>Desarrollamos sistemas personalizados para empresas, en búsqueda de la solución óptima para su negocio, ya que utilizamos sus ideas en pro de obtener un sistema intuitivo, amigable, robusto y confiable.</p>
+                                                        <p style="text-align: justify">Desarrollamos sistemas personalizados para empresas, en búsqueda de la solución óptima para su negocio utilizando sus ideas en pro de obtener un sistema intuitivo, amigable, robusto y confiable.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -316,7 +316,7 @@
                                                         <h4><img src="assets/images/icon5.png" class="icono" id="ic2"><strong> DISEÑO WEB</strong></h4>
                                                     </div>
                                                     <div class="single_othersservice_content">
-                                                        <p>Sabemos lo importante que es que tu empresa tenga presencia en internet, la imagen lo es todo, por ello te ofrecemos la creación de webs a medida, sin plantillas, con asesoramiento de nuestros arquitectos web… lo que nos pidas lo podemos lograr.</p>
+                                                        <p style="text-align: justify">Sabemos lo importante que es  la presencia de las empresas  en internet, la imagen lo es todo, por ello te ofrecemos la creación de webs a medida, sin plantillas, con asesoramiento de nuestros arquitectos y expertos en diseño web. “Damos vida a tus ideas”.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -330,7 +330,7 @@
                                                     </div>
                                                     
                                                     <div class="single_othersservice_content">
-                                                        <p>Creamos aplicaciones Android e iOS 100% nativas, multifuncionales disponibles para iPhone, iPad, Android y PWA. Integramos tu App con otras aplicaciones, tiendas o con tu propio website.</p>
+                                                        <p style="text-align: justify">Creamos aplicaciones Android e iOS 100% nativas, multifuncionales disponibles para iPhone, iPad, Android y PWA. Integramos tu App con otras aplicaciones, tiendas o con tu propio website. Construimos el tipo de app más adecuado para tu empresa, trabajamos y moldeamos tus ideas logrando un producto terminado de calidad 100% confiable y garantizado.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@
                                                             <h4><img src="assets/images/icon6.png" class="icono2" id="ic4"><strong>MARKETING DIGITAL</strong></h4>
                                                     </div>
                                                     <div class="single_othersservice_content">
-                                                        <p>SEO posicionamiento efectivo en los buscadores web más utilizados. Sabemos cómo hacer crecer tu negocio en la web 2.0, compartiendo información fácilmente para el intercambio casi instantáneo de piezas que antes eran imposibles, como imágenes y videos.</p>
+                                                        <p style="text-align: justify">SEO posicionamiento efectivo en los buscadores web más utilizados. Sabemos cómo hacer crecer tu negocio en la web 2.0, compartiendo información fácilmente para el intercambio casi instantáneo de piezas que antes eran imposibles, como imágenes y videos. Combinamos distintas estrategias de mercado y comercialización que permiten el crecimiento constante de las empresas, como pueden ser campañas de E-mail Marketing entre muchas otras.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -357,7 +357,7 @@
                                                             <h4><img src="assets/images/icon1.png" class="icono" id="ic5"><strong>ALOJAMIENTO EN LA NUBE</strong></h4>
                                                     </div>
                                                     <div class="single_othersservice_content">
-                                                        <p>Poseemos tecnología de punta con servidores dedicados en data centers que garantizan su rápido funcionamiento y soporte técnico las 24 horas. Tenemos a tu disposición el servicio de hosting, dominios, servidores webs y mucho más.</p>
+                                                        <p style="text-align: justify">Poseemos tecnología de punta con servidores dedicados en data centers que garantizan su rápido funcionamiento y soporte técnico las 24 horas. Tenemos a tu disposición el servicio de hosting, dominios, servidores webs y mucho más. Tiene como beneficio principal el ahorro pero también se caracteriza por descentralizar y permitir muchas formas de hacer negocios, permitiendo así la globalización de equipos de trabajo.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -369,7 +369,7 @@
                                                             <h4><img src="assets/images/icon4.png" class="icono" id="ic3"><strong>DISEÑO GRÁFICO</strong></h4>
                                                     </div>
                                                     <div class="single_othersservice_content">
-                                                        <p>Creamos para ti diseños vanguardistas que se adaptan a tu imagen. Nuestro equipo creativo rompe la rutina, creando desde otra perspectiva, en búsqueda de realzar el valor a tu marca. Si lo puedes imaginar, lo podemos hacer.</p>
+                                                        <p style="text-align: justify">Creamos para ti diseños vanguardistas que se adaptan a tu imagen. Nuestro equipo creativo rompe la rutina, creando desde otra perspectiva, diseños enfocados en la  búsqueda de realzar el valor a tu marca. Si lo puedes imaginar, lo podemos hacer.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1135,7 +1135,7 @@
 
             
 
-            <section id="parallax2" class="parallax2">
+            <section id="parallax2" class="parallax2 img-responsive">
                 <div class="container">
                     <br><br><br><br><br><br><br><br><br><br>
                     <h2 style="color:white; text-align: center">Desarrollo de software a medida, diseño y construcción de páginas web, marketing digital y social media.</h2>        
@@ -1590,18 +1590,24 @@
 
 
 
-        <!--<script>
+        <script>
             
            document.getElementById('videoi').play();
             
 
-        </script>-->
+        </script>
 
         
         <!-- animaciones inconos -->
         <script>
             
             $(document).ready(function(){
+                setTimeout(function(){
+                    $('.web').removeAttr("style");
+                    console.log('hi'); 
+                    $('.bcards').removeAttr("style");    
+            },4000);
+                 
                 
                 $("#ic").mouseenter(function() {
                     $(this).animate({top:-25});
@@ -1725,10 +1731,6 @@
             });
 
         </script>-->
-
-
-
-        
 
     </body>
 </html>
